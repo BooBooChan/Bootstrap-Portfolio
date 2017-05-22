@@ -14,28 +14,41 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>>
 	</head>
 	<body>
+	<div class = "container">
+	<!--Your name-->
+	<h1 class = "navar-default">Bridget Bourne</h1>
 	<!--Links to your pages-->
-		<div><a href = "index.html">About</a> <a href = "portfolio.html">Portfolio</a><a href = "contact.html">Contact</a>
-<!--Your name-->		
-		<h1>Bridget Bourne</h1></div>
+		<div class = "row"><a class = "navbar-right" href = "index.html">About</a> <a class = "navbar-right" href = "portfolio.html">Portfolio</a><a class = "navbar-right" href = "contact.html">Contact</a>
+		</div>
 <!--Your social media pages-->
 		<div><h2>Follow me!</h2>
-		<ul><li><a href = "https://www.linkedin.com/in/bridget-bourne-693a94106/">LinkedIn page<img src = "assets/images/Linkedin-contact.png" alt = "LinkedIn icon" height = "80px" width = "80px"></a></li>
-		<li><a href = "http://stackoverflow.com/users/7973455/bridget-bourne">Stack Overload page<img src = "assets/images/Stackoverflow-contact.png" alt = "Stack Overflow icon" height = "80px" width = "80px"></a></li>
-		<li><a href = "https://github.com/BooBooChan">GitHub page<img src = "assets/images/Github-contact.png" alt = "GitHub icon" height = "80px" width = "80px"></a></li></ul></div>
+		<ul><li><a href = "https://www.linkedin.com/in/bridget-bourne-693a94106/">LinkedIn page<img src = "../Basic-Portfolio/assets/images/Linkedin-contact.png" alt = "LinkedIn icon" height = "80px" width = "80px"></a></li>
+		<li><a href = "http://stackoverflow.com/users/7973455/bridget-bourne">Stack Overload page<img src = "../Basic-Portfolio/assets/images/Stackoverflow-contact.png" alt = "Stack Overflow icon" height = "80px" width = "80px"></a></li>
+		<li><a href = "https://github.com/BooBooChan">GitHub page<img src = "../Basic-Portfolio/assets/images/Github-contact.png" alt = "GitHub icon" height = "80px" width = "80px"></a></li></ul></div>
 <!--Name of page-->
-		<div><h2 class = "page">Have questions or comments? Send them hither!</h2>
+		<h2 class = "row">Have questions or comments? Send them hither!</h2>
+		
 <!--Information entries-->
-		<h4>Name</h4>
-		<p></p>
-		<h4>Email</h4>
-		<p></p>
-		<h4></h4>
-		<p></p>
+		<form class = "navbar-form navbar-left">
+			<div class = "row">
+				<div class = "col-lg-6"><h4 class = "row">Name</h4>
+				<p class = "form-group"><input type = "text" class = "form-control" placeholder = "Who are you?"></p>
+				</div>
+				<div class = "col-lg=6"><h4>Email</h4>
+				<p class = "form-group"><input type = "text" class = "form-control" placeholder = "How can I get back to you?"></p>
+				</div>
+			<div class = "row">
+				<div class = "col-lg-12"><h4>Message</h4>
+			<p class = "form-group"><input type = "text" class = "form-control" placeholder = "What's your deal?"></p>
+
 <!--You'll probably want to tweak the position of this last <h4> tag-->
-		<h4>Send</h4></div>
+		<button type="submit" class="btn btn-default">Send</button>
+			</div>
+		</div>
+		</form>
 
 <!--Your copyright information-->
-		<p>Umm, footer. What do I put in here?</p>
+		<p class = "row">Umm, footer. What do I put in here?</p>
+	</div>
 	</body>
 </html>
